@@ -12,4 +12,4 @@ input = gets.strip.chomp
 
 index = input_to_index(input)
 
-move(board, ind, char = "X")
+move(board, index, char)
